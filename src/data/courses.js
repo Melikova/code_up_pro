@@ -25,6 +25,102 @@ export const courses = [
   },
   {
     id: 2,
+    imgSrc: "/images/courses/postman.jpg",
+    alt: "API Testing: Postman",
+    title: "API Testing: Postman Automation",
+    about: "Join us in this comprehensive course designed to take you from an absolute beginner in API testing to mastering automation with Postman and integrating it with GitHub Actions for Continuous Integration (CI) pipelines. This course will guide you through all the necessary steps, tools, and techniques to ensure your API testing process is efficient, automated, and integrated into modern DevOps workflows.",
+    about_hidden: "Whether you're a developer, QA engineer, or anyone involved in software testing, this course will equip you with the skills to write automated tests, manage your collections, and seamlessly integrate your testing process into a CI/CD pipeline using GitHub Actions.",
+    totalRatings: 230,
+    author: " Mehin Malikova",
+    author_avatar: "/images/avatar/mehin.jpeg",
+    author_about: "With 18 years of experience in governmental projects and 3 years in the e-commerce industry, I bring a wealth of expertise to the table as both a Full Stack Developer and Quality Assurance professional.",
+    linkedin: "https://www.linkedin.com/in/mhmelikova/",
+    discounted_price: 150,
+    price: 200,
+    currency: "AZN",
+    reviews: [
+      {
+        text:"The part where we learned how to integrate Postman tests into a CI/CD pipeline with GitHub Actions was a game-changer for me. I had no idea how to do it before, but now I feel confident setting up automated API tests in real projects.",
+        author: "Saida Babazade",
+        date: "10 days ago",
+        linkedin: "https://www.linkedin.com/in/saidababazade/",
+        image: "/images/avatar/saida.jpeg"
+      }, 
+      {
+        text:"I had no experience with API testing before, but this course made everything easy to understand. The explanations were clear, and each topic was introduced step by step. I also loved the hands-on approach—there were lots of real examples and exercises that helped me learn by doing.",
+        author: "Orkhan Babayev",
+        date: "13 days ago",
+        linkedin: "https://www.linkedin.com/in/orxan-babayev-66b4b819a/",
+        image: "/images/avatar/orxan.jpeg"
+      }
+    ]
+  },
+  {
+    id: 3,
+    imgSrc: "/images/courses/postman.jpg",
+    alt: "Technical QA Foundations: HTML, CSS & JavaScript for Testers",
+    title: "Technical QA Foundations: HTML, CSS & JavaScript for Testers",
+    about: "Build a strong technical foundation as a QA professional by learning the core technologies behind every web application. In this course, you'll gain hands-on experience with HTML, CSS, and JavaScript—essential tools for understanding web behavior, debugging issues, and communicating effectively with developers. Perfect for manual testers looking to transition into automation or improve their technical fluency in testing modern web apps.",
+    about_hidden: "You’ll learn to inspect and analyze front-end code, identify UI issues, and better understand how your tests interact with web components. These skills will help you become a more confident, capable, and collaborative member of any QA team.",
+    totalRatings: 230,
+    author: " Mehin Malikova",
+    author_avatar: "/images/avatar/mehin.jpeg",
+    author_about: "With 18 years of experience in governmental projects and 3 years in the e-commerce industry, I bring a wealth of expertise to the table as both a Full Stack Developer and Quality Assurance professional.",
+    linkedin: "https://www.linkedin.com/in/mhmelikova/",
+    discounted_price: 150,
+    price: 200,
+    currency: "AZN",
+    reviews: [
+      {
+        text:"The part where we learned how to integrate Postman tests into a CI/CD pipeline with GitHub Actions was a game-changer for me. I had no idea how to do it before, but now I feel confident setting up automated API tests in real projects.",
+        author: "Saida Babazade",
+        date: "10 days ago",
+        linkedin: "https://www.linkedin.com/in/saidababazade/",
+        image: "/images/avatar/saida.jpeg"
+      }, 
+      {
+        text:"I had no experience with API testing before, but this course made everything easy to understand. The explanations were clear, and each topic was introduced step by step. I also loved the hands-on approach—there were lots of real examples and exercises that helped me learn by doing.",
+        author: "Orkhan Babayev",
+        date: "13 days ago",
+        linkedin: "https://www.linkedin.com/in/orxan-babayev-66b4b819a/",
+        image: "/images/avatar/orxan.jpeg"
+      }
+    ]
+  },
+  {
+    id: 4,
+    imgSrc: "/images/courses/postman.jpg",
+    alt: "ISTQB Foundation Level: Complete Certification Prep",
+    title: "ISTQB Foundation Level: Complete Certification Prep",
+    about: "Prepare for the ISTQB Foundation Level Certification with a comprehensive course designed to build your understanding of core software testing principles and techniques. This course covers everything you need to know to pass the exam confidently—from testing fundamentals and methodologies to test management, tools, and quality assurance practices. Perfect for aspiring testers, QA professionals, and anyone looking to validate their knowledge with an internationally recognized certification.",
+    about_hidden: "You'll gain clarity on key ISTQB concepts through real-world examples, practice questions, and exam tips that mirror the official syllabus. By the end of the course, you’ll be fully prepared not only to take the exam, but also to apply structured testing practices in any QA role.",
+    totalRatings: 230,
+    author: " Mehin Malikova",
+    author_avatar: "/images/avatar/mehin.jpeg",
+    author_about: "With 18 years of experience in governmental projects and 3 years in the e-commerce industry, I bring a wealth of expertise to the table as both a Full Stack Developer and Quality Assurance professional.",
+    linkedin: "https://www.linkedin.com/in/mhmelikova/",
+    discounted_price: 250,
+    price: 300,
+    currency: "AZN",
+    reviews: [
+      {
+        text:"The part where we learned how to integrate Postman tests into a CI/CD pipeline with GitHub Actions was a game-changer for me. I had no idea how to do it before, but now I feel confident setting up automated API tests in real projects.",
+        author: "Saida Babazade",
+        date: "10 days ago",
+        linkedin: "https://www.linkedin.com/in/saidababazade/",
+        image: "/images/avatar/saida.jpeg"
+      }, 
+      {
+        text:"I had no experience with API testing before, but this course made everything easy to understand. The explanations were clear, and each topic was introduced step by step. I also loved the hands-on approach—there were lots of real examples and exercises that helped me learn by doing.",
+        author: "Orkhan Babayev",
+        date: "13 days ago",
+        linkedin: "https://www.linkedin.com/in/orxan-babayev-66b4b819a/",
+        image: "/images/avatar/orxan.jpeg"
+      }
+    ]
+  },
+  {
+    id: 5,
     imgSrc: "/images/courses/manual.jpg",
     alt: "QA Automation: Java Selenium",
     title: "QA Automation: Java Selenium",
@@ -55,7 +151,7 @@ export const courses = [
     ]
   },
   {
-    id: 3,
+    id: 6,
     imgSrc: "/images/courses/cypress.png",
     alt: "QA Automation: Cypress",
     title: "QA Automation: Cypress",
@@ -67,38 +163,6 @@ export const courses = [
     linkedin: "https://www.linkedin.com/in/mhmelikova/",
     discounted_price: 200,
     price: 250,
-    currency: "AZN",
-    reviews: [
-      {
-        text:"The part where we learned how to integrate Postman tests into a CI/CD pipeline with GitHub Actions was a game-changer for me. I had no idea how to do it before, but now I feel confident setting up automated API tests in real projects.",
-        author: "Saida Babazade",
-        date: "10 days ago",
-        linkedin: "https://www.linkedin.com/in/saidababazade/",
-        image: "/images/avatar/saida.jpeg"
-      }, 
-      {
-        text:"I had no experience with API testing before, but this course made everything easy to understand. The explanations were clear, and each topic was introduced step by step. I also loved the hands-on approach—there were lots of real examples and exercises that helped me learn by doing.",
-        author: "Orkhan Babayev",
-        date: "13 days ago",
-        linkedin: "https://www.linkedin.com/in/orxan-babayev-66b4b819a/",
-        image: "/images/avatar/orxan.jpeg"
-      }
-    ]
-  },
-  {
-    id: 4,
-    imgSrc: "/images/courses/postman.jpg",
-    alt: "API Testing: Postman",
-    title: "API Testing: Postman Automation",
-    about: "Join us in this comprehensive course designed to take you from an absolute beginner in API testing to mastering automation with Postman and integrating it with GitHub Actions for Continuous Integration (CI) pipelines. This course will guide you through all the necessary steps, tools, and techniques to ensure your API testing process is efficient, automated, and integrated into modern DevOps workflows.",
-    about_hidden: "Whether you're a developer, QA engineer, or anyone involved in software testing, this course will equip you with the skills to write automated tests, manage your collections, and seamlessly integrate your testing process into a CI/CD pipeline using GitHub Actions.",
-    totalRatings: 230,
-    author: " Mehin Malikova",
-    author_avatar: "/images/avatar/mehin.jpeg",
-    author_about: "With 18 years of experience in governmental projects and 3 years in the e-commerce industry, I bring a wealth of expertise to the table as both a Full Stack Developer and Quality Assurance professional.",
-    linkedin: "https://www.linkedin.com/in/mhmelikova/",
-    discounted_price: 150,
-    price: 200,
     currency: "AZN",
     reviews: [
       {

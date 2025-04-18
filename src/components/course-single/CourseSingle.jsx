@@ -7,7 +7,7 @@ import Reviews from "./Reviews";
 import { Link } from "react-router-dom";
 
 export default function CourseSingle1({ courseItem }) {
-  if (courseItem.id !== 1 && courseItem.id !== 4) {
+  if (courseItem.id !== 1 && courseItem.id !== 2 && courseItem.id !== 3) {
     return (
       <section className="section-page-title page-title style-4">
         <div className="tf-container">

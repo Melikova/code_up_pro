@@ -40,7 +40,7 @@ export default function Courses() {
         <div className="row" style={{ marginTop: "90px" }}>
           <div className="col-12">
             <div className="list grid-list-items-4">
-              {courses.slice(0, 4).map((elm, i) => (
+              {courses.slice(0, 6).map((elm, i) => (
                 <div
                   key={i}
                   className="course-item style-2 has-bg hover-img h240 wow fadeInUp"
@@ -57,7 +57,7 @@ export default function Courses() {
                   </div>
                   <div className="content">
                     <h5 className="fw-5 line-clamp-2">
-                      {(elm.id === 1 || elm.id === 4) ? (
+                      {(elm.id === 1 || elm.id === 2 || elm.id === 3) ? (
                         <Link to={`/course-single/${elm.id}`}>
                           {elm.title}
                         </Link>
@@ -66,7 +66,9 @@ export default function Courses() {
                       )}
                     </h5>
                     <div className="ratings">
-                      <div className="number">{truncateText(elm.about, 190)}</div>
+                      <div className="number">
+                        {truncateText(elm.about, elm.id === 3 || elm.id ===4 ? 150 : 190)}
+                      </div>
                     </div>
                     <div className="author">
                       By: 
@@ -76,7 +78,7 @@ export default function Courses() {
                     </div>
                     <div className="bottom">
                       <div className="h5 price fw-5">{elm.currency + " " + elm.discounted_price}</div>
-                      {(elm.id === 1 || elm.id === 4) ? (
+                      {(elm.id === 1 || elm.id === 2 || elm.id === 3) ? (
                         <Link
                           to={`/course-single/${elm.id}`}
                           className="tf-btn-arrow"
